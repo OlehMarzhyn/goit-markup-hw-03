@@ -21,6 +21,18 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+.visually-hidden {
+   position: absolute; 
+   width: 1px; 
+   height: 1px; 
+   margin: -1px; 
+   border: 0; 
+   padding: 0; 
+   white-space: nowrap; 
+   clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+     overflow: hidden; 
+}
 img {
   display: block;
 }
@@ -129,7 +141,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding-left: 15px;
+  margin-left: 15px;
+  margin-right: 76px;
 }
 .header-nav-web {
   color: var(--header-color);
@@ -146,7 +159,7 @@ ul {
   font-family: "Roboto", sans-serif;
   background: #2e2f42;
   text-align: center;
-  height: 600px;
+  padding: 188px 0;
 }
 .team-container {
 }
@@ -159,10 +172,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
-  padding-top: 188px;
-  padding-bottom: 292px;
   margin: 0 auto;
 }
 .section-team-btn {
@@ -175,10 +186,13 @@ ul {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px; 
 }
 .section-team-btn:hover {
   background-color: #404bbf;
@@ -235,7 +249,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .section-item {
 width: calc((100%-72px)/4);
@@ -284,7 +298,9 @@ width: calc((100%-72px)/4);
   padding: 0;
 }
 .section-item-images {
-  width: calc((100%-48px)/3);
+  width: calc((100% - 48px) / 3);
+  
+ 
 }
 .people-container {
   width: 1440px;
@@ -328,13 +344,15 @@ padding-bottom: 120px;
   margin-left: 156px;
   margin-right: 156px;
   margin-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
+  
 }
 .section-list {
   background-color: #ffffff;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
 }
 .container-section-list {
   padding: 32px 16px;
