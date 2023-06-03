@@ -370,10 +370,9 @@ padding-bottom: 120px;
   
 }
 .section-lista {
-  
-}
-.lol {
   width: calc((100% - 48px) / 3);
+}
+.table {
 }
 .foto-container {
 }
