@@ -373,9 +373,10 @@ padding-bottom: 120px;
  
 }
 .container-table {
-width: calc((100% - 48px) / 3);
+
 }
 .table {
+  width: calc((100% - 48px) / 3);
 }
 .foto-container {
 }
@@ -388,6 +389,7 @@ width: calc((100% - 48px) / 3);
   padding-bottom: 8px;
   padding-left: 16px;
   padding-top: 32px;
+  margin-bottom: 8px;
 }
 .container-link {
   
