@@ -367,10 +367,13 @@ padding-bottom: 120px;
   flex-wrap: wrap;
   column-gap: 24px; 
   row-gap: 48px;
-  
+   
 }
 .section-lista {
-  width: calc((100% - 48px) / 3);
+ 
+}
+.container-table {
+width: calc((100% - 48px) / 3);
 }
 .table {
 }
